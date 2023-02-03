@@ -24,7 +24,7 @@ public class StudentTest
 
     	 Collections.sort(arr,new Comparator<Student>(){
     		 public int compare(Student s1,Student s2) {
-    			 return Double.valueOf(s2.getGpa()).compareTo(Double.valueOf(s1.getGpa()));
+    			 return Double.compare(s2.getGpa(), s1.getGpa());
     		 }
     	 });
     	 log.info("-------------After Sorted--------------");
