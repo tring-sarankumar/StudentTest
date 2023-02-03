@@ -18,7 +18,7 @@ public class StudentTest
     	
     	
     	for (int i=0; i<arr.size(); i++){
-    	    log.info(arr.get(i).getName() +" " +String.valueOf(arr.get(i).getAge()) +" "+arr.get(i).getGpa());
+    	    log.info(arr.get(i).getName() +" " +arr.get(i).getAge() +" "+arr.get(i).getGpa());
     	    
     	}
 
